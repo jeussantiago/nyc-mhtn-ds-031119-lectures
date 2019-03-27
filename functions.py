@@ -14,11 +14,12 @@ def even_list(numbers):
 # Given a list return the unique names in the list
 
 def unique_names(list_of_names):
-    unique_names = []
-    for name in list_of_names:
-        if name not in unique_names:
-            unique_names.append(name)
-    return unique_names
+    return list(set(list_of_names))
+#    unique_names = []
+#    for name in list_of_names:
+#        if name not in unique_names:
+#            unique_names.append(name)
+#    return unique_names
 
 # Make a function that determines if a word is a palindrome
 
